@@ -328,7 +328,7 @@ Plug 'nvim-treesitter/playground'
 
 " Pretty Dress
 Plug 'theniceboy/nvim-deus'
-"Plug 'arzg/vim-colors-xcode'
+Plug 'arzg/vim-colors-xcode'
 
 " Status line
 Plug 'theniceboy/eleline.vim', { 'branch': 'no-scrollbar' }
@@ -346,15 +346,15 @@ Plug 'airblade/vim-rooter'
 Plug 'pechorin/any-jump.vim'
 
 " Debugger
-" Plug 'puremourning/vimspector', {'do': './install_gadget.py --enable-c --enable-python --enable-go'}
+Plug 'puremourning/vimspector', {'do': './install_gadget.py --enable-c --enable-python --enable-go'}
 
 " Auto Complete
 Plug 'neoclide/coc.nvim', {'commit': '63dd239bfe02998810b39d039827e2510885b57b'}
-" Plug 'neoclide/coc.nvim', {'branch': 'release', 'tag': 'v0.0.79'}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'tag': 'v0.0.79'}
 Plug 'wellle/tmux-complete.vim'
 
 " Snippets
-" Plug 'SirVer/ultisnips'
+Plug 'SirVer/ultisnips'
 Plug 'theniceboy/vim-snippets'
 
 " Undo Tree
@@ -363,13 +363,13 @@ Plug 'mbbill/undotree'
 " Git
 Plug 'theniceboy/vim-gitignore', { 'for': ['gitignore', 'vim-plug'] }
 Plug 'theniceboy/fzf-gitignore', { 'do': ':UpdateRemotePlugins' }
-"Plug 'mhinz/vim-signify'
+Plug 'mhinz/vim-signify'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'cohama/agit.vim'
 Plug 'kdheepak/lazygit.nvim'
 
 " Tex
-" Plug 'lervag/vimtex'
+Plug 'lervag/vimtex'
 
 " CSharp
 Plug 'OmniSharp/omnisharp-vim'
@@ -380,18 +380,18 @@ Plug 'elzr/vim-json'
 Plug 'neoclide/jsonc.vim'
 Plug 'othree/html5.vim'
 Plug 'alvan/vim-closetag'
-" Plug 'hail2u/vim-css3-syntax' " , { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
-" Plug 'spf13/PIV', { 'for' :['php', 'vim-plug'] }
-" Plug 'pangloss/vim-javascript', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
+Plug 'hail2u/vim-css3-syntax' " , { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
+Plug 'spf13/PIV', { 'for' :['php', 'vim-plug'] }
+Plug 'pangloss/vim-javascript', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
 Plug 'yuezk/vim-js', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
-" Plug 'MaxMEllon/vim-jsx-pretty', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
-" Plug 'jelera/vim-javascript-syntax', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
-"Plug 'jaxbot/browserlink.vim'
+Plug 'MaxMEllon/vim-jsx-pretty', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
+Plug 'jelera/vim-javascript-syntax', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
+Plug 'jaxbot/browserlink.vim'
 Plug 'HerringtonDarkholme/yats.vim'
-" Plug 'posva/vim-vue'
-" Plug 'evanleck/vim-svelte', {'branch': 'main'}
-" Plug 'leafOfTree/vim-svelte-plugin'
-" Plug 'leafgarland/typescript-vim'
+Plug 'posva/vim-vue'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'leafOfTree/vim-svelte-plugin'
+Plug 'leafgarland/typescript-vim'
 Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
@@ -406,9 +406,9 @@ Plug 'fatih/vim-go' , { 'for': ['go', 'vim-plug'], 'tag': '*' }
 Plug 'Vimjas/vim-python-pep8-indent', { 'for' :['python', 'vim-plug'] }
 Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins', 'for' :['python', 'vim-plug'] }
 Plug 'tweekmonster/braceless.vim', { 'for' :['python', 'vim-plug'] }
-"Plug 'vim-scripts/indentpython.vim', { 'for' :['python', 'vim-plug'] }
-"Plug 'plytophogy/vim-virtualenv', { 'for' :['python', 'vim-plug'] }
-"Plug 'tmhedberg/SimpylFold', { 'for' :['python', 'vim-plug'] }
+Plug 'vim-scripts/indentpython.vim', { 'for' :['python', 'vim-plug'] }
+Plug 'plytophogy/vim-virtualenv', { 'for' :['python', 'vim-plug'] }
+Plug 'tmhedberg/SimpylFold', { 'for' :['python', 'vim-plug'] }
 
 " Dart
 Plug 'dart-lang/dart-vim-plugin', { 'for': ['dart', 'vim-plug'] }
@@ -425,14 +425,14 @@ Plug 'dkarter/bullets.vim'
 
 " Other filetypes
 Plug 'wlangstroth/vim-racket'
-" Plug 'jceb/vim-orgmode', {'for': ['vim-plug', 'org']}
+Plug 'jceb/vim-orgmode', {'for': ['vim-plug', 'org']}
 Plug 'hashivim/vim-terraform'
 
 " Editor Enhancement
 Plug 'petertriho/nvim-scrollbar'
 Plug 'kevinhwang91/nvim-hlslens'
 Plug 'ggandor/lightspeed.nvim'
-"Plug 'Raimondi/delimitMate'
+Plug 'Raimondi/delimitMate'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mg979/vim-visual-multi'
 Plug 'theniceboy/tcomment_vim' " in <space>cn to comment a line
@@ -442,36 +442,36 @@ Plug 'gcmt/wildfire.vim' " in Visual mode, type k' to select all text in '', or 
 Plug 'junegunn/vim-after-object' " da= to delete what's after =
 Plug 'godlygeek/tabular' " ga, or :Tabularize <regex> to align
 Plug 'tpope/vim-capslock'	" Ctrl+L (insert) to toggle capslock
-" Plug 'Konfekt/FastFold'
-"Plug 'junegunn/vim-peekaboo'
-"Plug 'wellle/context.vim'
+Plug 'Konfekt/FastFold'
+Plug 'junegunn/vim-peekaboo'
+Plug 'wellle/context.vim'
 Plug 'svermeulen/vim-subversive'
 Plug 'theniceboy/argtextobj.vim'
 Plug 'rhysd/clever-f.vim'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'theniceboy/pair-maker.vim'
 Plug 'theniceboy/vim-move'
-" Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'Yggdroot/indentLine'
 
 " For general writing
 Plug 'junegunn/goyo.vim'
 Plug 'reedes/vim-wordy'
-"Plug 'ron89/thesaurus_query.vim'
+Plug 'ron89/thesaurus_query.vim'
 
 " Bookmarks
-" Plug 'MattesGroeger/vim-bookmarks'
+Plug 'MattesGroeger/vim-bookmarks'
 
 " Find & Replace
 Plug 'nvim-lua/plenary.nvim' " nvim-spectre dep
 Plug 'nvim-pack/nvim-spectre'
 
 " Documentation
-" Plug 'KabbAmine/zeavim.vim' " <LEADER>z to find doc
+Plug 'KabbAmine/zeavim.vim' " <LEADER>z to find doc
 
 " Mini Vim-APP
-"Plug 'jceb/vim-orgmode'
-"Plug 'mhinz/vim-startify'
+Plug 'jceb/vim-orgmode'
+Plug 'mhinz/vim-startify'
 Plug 'skywind3000/asynctasks.vim'
 Plug 'skywind3000/asyncrun.vim'
 
@@ -487,7 +487,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 
 " Other useful utilities
 Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
-" Plug 'makerj/vim-pdf'
+Plug 'makerj/vim-pdf'
 
 call plug#end()
 
@@ -550,7 +550,6 @@ let g:coc_global_extensions = [
 	\ 'coc-sourcekit',
 	\ 'coc-stylelint',
 	\ 'coc-syntax',
-	\ 'https://github.com/theniceboy/coc-tailwindcss',
 	\ 'coc-tasks',
 	\ 'coc-translator',
 	\ 'coc-tsserver',
