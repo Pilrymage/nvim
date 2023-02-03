@@ -350,7 +350,7 @@ Plug 'puremourning/vimspector', {'do': './install_gadget.py --enable-c --enable-
 
 " Auto Complete
 Plug 'neoclide/coc.nvim', {'commit': '63dd239bfe02998810b39d039827e2510885b57b'}
-Plug 'neoclide/coc.nvim', {'branch': 'release', 'tag': 'v0.0.79'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release', 'tag': 'v0.0.79'}
 Plug 'wellle/tmux-complete.vim'
 
 " Snippets
