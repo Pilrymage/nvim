@@ -488,6 +488,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 " Other useful utilities
 Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 Plug 'makerj/vim-pdf'
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
 
@@ -922,6 +923,10 @@ nmap ss <plug>(SubversiveSubstituteLine)
 let g:Illuminate_delay = 750
 hi illuminatedWord cterm=undercurl gui=undercurl
 
+" ==================== vim-easymotion ====================
+noremap W <Plug>(easymotion-w)
+noremap B <Plug>(easymotion-B)
+let g:EasyMotion_keys = 'qwfpgjluy;zxcvbkmarstdhneio'
 
 " ==================== vim-rooter ====================
 let g:rooter_patterns = ['__vim_project_root', '.git/']
