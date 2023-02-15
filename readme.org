@@ -1,0 +1,6 @@
+#+TITLE: nvim
+
+My neovim config file.
+
+1. Editor settings in setting.vim
+2.  
