@@ -5,9 +5,10 @@ source $HOME/.config/nvim/config/set.vim
 source $HOME/.config/nvim/config/mappings.vim
 
 if exists('g:vscode')
-  source $HOME/.config/nvim/config/vscode.vim
+  source $HOME/.config/nvim/config/vscode/bindings.vim
+  
 else
-  source $HOME/.config/nvim/config/neovim.vim  
+  " source $HOME/.config/nvim/config/neovim.vim  
 endif
 
 " Load plugins in neovim

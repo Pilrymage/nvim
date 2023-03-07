@@ -4,3 +4,8 @@ My neovim config file.
 
 1. Editor settings in setting.vim
 2.  
+** 
+*
+***
+****
+ *a* /b/ +c+ _d_
