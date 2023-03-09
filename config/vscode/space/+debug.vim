@@ -33,4 +33,4 @@ xnoremap <space>dS <Cmd>call VSCodeNotify('workbench.action.debug.stop')<CR>
 nnoremap <space>dW <Cmd>call VSCodeNotify('editor.debug.action.selectionToWatch')<CR>
 xnoremap <space>dW <Cmd>call VSCodeNotify('editor.debug.action.selectionToWatch')<CR>
 
-source $HOME/.config/nvim/config/vscode/space/+breakpoint.vim
+source $HOME/.config/nvim/config/vscode/space/+d/breakpoint.vim

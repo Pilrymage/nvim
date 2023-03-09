@@ -23,3 +23,5 @@ nnoremap <space>wU <Cmd>call VSCodeNotify('workbench.action.moveActiveEditorGrou
 nnoremap <space>wI <Cmd>call VSCodeNotify('workbench.action.moveActiveEditorGroupRight')<CR>
 nnoremap <space>wM <Cmd>call VSCodeNotify('workbench.action.maximizeEditor')<CR>
 nnoremap <space>wW <Cmd>call VSCodeNotify('workbench.action.focusPreviousGroup')<CR>
+nnoremap <space>w[ <Cmd>call VSCodeNotify('workbench.action.decreaseViewSize')<CR>
+nnoremap <space>w] <Cmd>call VSCodeNotify('workbench.action.increaseViewSize')<CR>

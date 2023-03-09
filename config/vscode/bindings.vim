@@ -1,7 +1,18 @@
 let codeConf = '$HOME/.config/nvim/config/vscode/space/'
+
+function! s:lastBuffer() abort
+  call VSCodeNotify('workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup')
+  call VSCodeCall('list.select')
+endfunction
+
+function! s:searchInProject() abort
+  call VSCodeNotify('editor.action.addSelectionToNextFindMatch')
+  call VSCodeNotify('workbench.action.findInFiles')
+  call VSCodeNotify('search.action.focusSearchList')
+endfunction
+
 exec 'source' . expand(codeConf) . 'major.vim'
 exec 'source' . expand(codeConf) . '+tasks.vim'
-"  exec 'source' . expand(codeConf) . '/+sselect.vim'（对neovim无用）
 exec 'source' . expand(codeConf) . '+buffers.vim'
 exec 'source' . expand(codeConf) . '+compile.vim'
 exec 'source' . expand(codeConf) . '+debug.vim'
@@ -12,7 +23,6 @@ exec 'source' . expand(codeConf) . '+help.vim'
 exec 'source' . expand(codeConf) . '+insert.vim'
 exec 'source' . expand(codeConf) . '+jump.vim'
 exec 'source' . expand(codeConf) . '+layouts.vim'
-"  exec 'source' . expand(codeConf) . '/+major.vim'
 exec 'source' . expand(codeConf) . '+project.vim'
 exec 'source' . expand(codeConf) . '+quit.vim'
 exec 'source' . expand(codeConf) . '+resume.vim'
@@ -23,16 +33,12 @@ exec 'source' . expand(codeConf) . '+diff.vim'
 exec 'source' . expand(codeConf) . '+frame.vim'
 exec 'source' . expand(codeConf) . '+show.vim'
 exec 'source' . expand(codeConf) . '+uitoggles.vim'
-"  source $HOME/.config/nvim/config/vscode/window-commands.vim
-"  source $HOME/.config/nvim/config/vscode/debug.vim
-"  source $HOME/.config/nvim/config/vscode/d
 nnoremap <leader><leader> <Cmd>call VSCodeNotify('workbench.action.showCommands')<CR>
-nnoremap <leader><Tab> <Cmd>call VSCodeNotify('workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup')<CR>
-"  nnoremap <leader>! <Cmd>call VSCodeNotify('list.select')<CR>
+nnoremap <leader><Tab> <Cmd>call <SID>lastBuffer()<CR>
 nnoremap <leader>! <Cmd>call VSCodeNotify('workbench.action.terminal.focus')<CR>
 nnoremap <leader>\" <Cmd>call VSCodeNotify('workbench.action.terminal.openNativeConsole')<CR>
 nnoremap <leader>\' <Cmd>call VSCodeNotify('workbench.action.terminal.focus')<CR>
-nnoremap <leader>* <Cmd>call VSCodeNotify('editor.action.addSelectionToNextFindMatch')<CR>
+nnoremap <leader>* <Cmd>call <SID>searchInProject()<CR>
 "  nnoremap <leader>/ <Cmd>call VSCodeNotify('workbench.action.findInFiles')<CR>
 "  nnoremap <leader> <Cmd>call VSCodeNotify('search.action.focusSearchList')<CR>
 nnoremap <leader>/ <Cmd>call VSCodeNotify('workbench.action.findInFiles')<CR>

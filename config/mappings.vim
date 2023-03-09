@@ -90,6 +90,7 @@ xnoremap <silent> zV <Cmd>call VSCodeNotify('editor.foldAllExcept')<CR>
 noremap ` ~
 " " Call figlet
 noremap tx :r !figlet 
+noremap R :! make run
 inoremap <C-a> <ESC>I
 inoremap <C-e> <ESC>A
 inoremap <C-p> <ESC>ki
