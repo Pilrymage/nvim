@@ -1,0 +1,1 @@
+nnoremap <space>xdw <Cmd>call VSCodeNotify('editor.action.trimTrailingWhitespace')<CR>

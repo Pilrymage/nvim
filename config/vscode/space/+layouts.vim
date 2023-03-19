@@ -1,0 +1,1 @@
+nnoremap <space>ld <Cmd>call VSCodeNotify('workbench.action.closeFolder')<CR>
