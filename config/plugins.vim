@@ -6,6 +6,7 @@ endfunction
 call plug#begin('$HOME/.config/nvim/plugged')
 
 Plug 'itchyny/vim-cursorword'
+Plug 'tpope/vim-fugitive', Cond(!exists('g:vscode'))
 
 " Github Copilot
 Plug 'github/copilot.vim', Cond(!exists('g:vscode'))
