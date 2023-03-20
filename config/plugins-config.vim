@@ -24,11 +24,11 @@ require('gitsigns').setup({
   },
 })
 EOF
-nnoremap H :Gitsigns preview_hunk_inline<CR>
-nnoremap <LEADER>gr :Gitsigns reset_hunk<CR>
-nnoremap <LEADER>gb :Gitsigns blame_line<CR>
-nnoremap <LEADER>g- :Gitsigns prev_hunk<CR>
-nnoremap <LEADER>g= :Gitsigns next_hunk<CR>
+" nnoremap H :Gitsigns preview_hunk_inline<CR>
+" nnoremap <LEADER>gr :Gitsigns reset_hunk<CR>
+" nnoremap <LEADER>gb :Gitsigns blame_line<CR>
+" nnoremap <LEADER>g- :Gitsigns prev_hunk<CR>
+" nnoremap <LEADER>g= :Gitsigns next_hunk<CR>
 
 
 " ==================== coc.nvim ====================
@@ -418,8 +418,8 @@ let g:rnvimr_presets = [{'width': 1.0, 'height': 1.0}]
 
 
 " ==================== vim-subversive ====================
-nmap s <plug>(SubversiveSubstitute)
-nmap ss <plug>(SubversiveSubstituteLine)
+" nmap s <plug>(SubversiveSubstitute)
+" nmap ss <plug>(SubversiveSubstituteLine)
 
 
 " ==================== vim-illuminate ====================
@@ -458,7 +458,7 @@ let g:move_key_modifier = 'C'
 
 
 " ==================== any-jump ====================
-nnoremap j :AnyJump<CR>
+" nnoremap j :AnyJump<CR>
 let g:any_jump_window_width_ratio  = 0.8
 let g:any_jump_window_height_ratio = 0.9
 
