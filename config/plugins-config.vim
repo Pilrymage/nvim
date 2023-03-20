@@ -341,8 +341,8 @@ let g:vim_jsx_pretty_colorful_config = 1
 vmap ga :Tabularize /
 
 
-" ==================== vim-after-object ====================
-autocmd VimEnter * call after_object#enable('=', ':', '-', '#', ' ')
+" " ==================== vim-after-object ====================
+" autocmd VimEnter * call after_object#enable('=', ':', '-', '#', ' ')
 
 
 " ==================== rainbow ====================

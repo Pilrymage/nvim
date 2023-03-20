@@ -15,3 +15,4 @@ endif
 source $HOME/.config/nvim/config/plugins.vim
 if !exists('g:vscode')
   source $HOME/.config/nvim/config/plugins-config.vim
+endif

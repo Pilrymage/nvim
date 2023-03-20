@@ -37,7 +37,7 @@ Plug 'pechorin/any-jump.vim', Cond(!exists('g:vscode'))
 Plug 'puremourning/vimspector',  Cond(!exists('g:vscode'), {'do': './install_gadget.py --enable-c --enable-python --enable-go'})
 
 " Auto Complete
-Plug 'neoclide/coc.nvim',  Cond(!exists('g:vscode'), {'commit': '63dd239bfe02998810b39d039827e2510885b57b'})
+" Plug 'neoclide/coc.nvim',  Cond(!exists('g:vscode'), {'commit': '63dd239bfe02998810b39d039827e2510885b57b'})
 " Plug 'neoclide/coc.nvim', {'branch': 'release', 'tag': 'v0.0.79'}
 Plug 'wellle/tmux-complete.vim', Cond(!exists('g:vscode'))
 
@@ -92,7 +92,7 @@ Plug 'fatih/vim-go' ,  Cond(!exists('g:vscode'),{ 'for': ['go', 'vim-plug'], 'ta
 
 " Python
 Plug 'Vimjas/vim-python-pep8-indent',  Cond(!exists('g:vscode'),{ 'for' :['python', 'vim-plug'] })
-Plug 'numirias/semshi',  Cond(!exists('g:vscode'),{ 'do': ':UpdateRemotePlugins', 'for' :['python', 'vim-plug'] })
+" Plug 'numirias/semshi',  Cond(!exists('g:vscode'),{ 'do': ':UpdateRemotePlugins', 'for' :['python', 'vim-plug'] })
 Plug 'tweekmonster/braceless.vim',  Cond(!exists('g:vscode'),{ 'for' :['python', 'vim-plug'] })
 Plug 'vim-scripts/indentpython.vim',  Cond(!exists('g:vscode'),{ 'for' :['python', 'vim-plug'] })
 Plug 'plytophogy/vim-virtualenv',  Cond(!exists('g:vscode'),{ 'for' :['python', 'vim-plug'] })
@@ -117,7 +117,7 @@ Plug 'hashivim/vim-terraform', Cond(!exists('g:vscode'))
 
 " Editor Enhancement
 Plug 'petertriho/nvim-scrollbar', Cond(!exists('g:vscode'))
-Plug 'kevinhwang91/nvim-hlslens', Cond(!exists('g:vscode'))
+" Plug 'kevinhwang91/nvim-hlslens', Cond(!exists('g:vscode'))
 Plug 'ggandor/lightspeed.nvim', Cond(!exists('g:vscode'))
 Plug 'Raimondi/delimitMate', Cond(!exists('g:vscode'))
 Plug 'jiangmiao/auto-pairs', Cond(!exists('g:vscode'))
